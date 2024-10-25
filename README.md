@@ -17,7 +17,7 @@ python ./train.py ./flowers/
 
 Train on **GPU** with **densenet169** with one **256** node layer:
 ```bash
-python ./train.py ./flowers/train --gpu --arch "densenet169" --hidden_units 1024 --epochs 5
+python ./train.py ./flowers/train --gpu --arch "densenet169" --hidden_units 256 --epochs 5
 ```
 
 Additional hidden layers with checkpoint saved to densenet169 directory.
